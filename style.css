@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: pink;
+    background-image: url("background-image.png");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutme{
+
+    margin-bottom:40px ;
+}
+
+.aboutme .aboutme-img{
+    position: relative;
+    left: 200px;
+    top:20px;
+}
+
+.aboutme .aboutme-content{
+    position: absolute;
+    left: 450px;
+    top:50px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+hr{
+    margin-bottom: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-top: 10px dotted wheat;
+   
+}
+
+.more table{
+    text-align: left;
+}
+.contact-info table , .contact-info table tr , .contact-info table td , .contact-info table th{
+    border: 2px double rgb(107, 104, 104);
+    margin-left: 60px;
+    
+}
+.contact-info tr  , .contact-info table td , .contact-info table th{
+   padding: 5px 100px;
+   width: 30%;
+   
+}
+
+/* ________________________________________ */
+
+.more table{
+    border: 4px double rgb(107, 104, 104);
+    margin-left: 60px;
+    
+}
+
+ .more table th , .more table td{
+    border-right:4px solid rgb(107, 104, 104);
+    
+}
+
+.more tr  , .more table td , .more th{
+    padding:1px 20px;
+    width: 30%;
+}
+
+.more input{
+margin-left: 45%;
+background-color: rgb(187, 42, 66);
+padding: 10px 30px;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+.contact{
+
+    text-align: center;
+    width: 100%;
+    margin-top: 180px;
+}
+
+.contact form input[type=text]{
+
+    padding:5px 150px;
+    margin: 20px;
+}
+
+.contact form label{
+    padding: 10px;
+}
+
+.contact form textarea{
+    margin: 20px;
+    padding:5px 150px;
+}
+
+.contact input[type=submit]{
+    background-color: rgb(187, 42, 66);
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+    
